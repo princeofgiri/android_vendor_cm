@@ -272,8 +272,8 @@ ifdef CM_BUILDTYPE
     endif
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := UNOFFICIAL
-    CM_EXTRAVERSION :=
+    CM_BUILDTYPE := RIDON
+    CM_EXTRAVERSION :=-Experimental
 endif
 
 ifeq ($(CM_BUILDTYPE), UNOFFICIAL)
